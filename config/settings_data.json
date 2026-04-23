@@ -1,12 +1,4 @@
-/*
- * ------------------------------------------------------------
- * IMPORTANT: The contents of this file are auto-generated.
- *
- * This file may be updated by the Shopify admin theme editor
- * or related systems. Please exercise caution as any changes
- * made to this file may be overwritten.
- * ------------------------------------------------------------
- */{
+{
   "current": {
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
@@ -76,25 +68,25 @@
     "color_schemes": {
       "scheme-1": {
         "settings": {
-          "background": "#ffffff",
-          "foreground_heading": "#000000",
-          "foreground": "#000000cf",
-          "primary": "#000000cf",
-          "primary_hover": "#000000",
-          "border": "#0000000f",
+          "background": "#FDF8F3",
+          "foreground_heading": "#994B30",
+          "foreground": "#3D1E14",
+          "primary": "#CB4E38",
+          "primary_hover": "#994B30",
+          "border": "#E8D5CC",
           "shadow": "#000000",
-          "primary_button_background": "#000000",
-          "primary_button_text": "#ffffff",
-          "primary_button_border": "#000000",
-          "primary_button_hover_background": "#333333",
-          "primary_button_hover_text": "#ffffff",
-          "primary_button_hover_border": "#000000",
+          "primary_button_background": "#CC5740",
+          "primary_button_text": "#FFFFFF",
+          "primary_button_border": "#CC5740",
+          "primary_button_hover_background": "#994B30",
+          "primary_button_hover_text": "#FFFFFF",
+          "primary_button_hover_border": "#994B30",
           "secondary_button_background": "rgba(0,0,0,0)",
-          "secondary_button_text": "#000000",
-          "secondary_button_border": "#000000",
-          "secondary_button_hover_background": "#fafafa",
-          "secondary_button_hover_text": "#333333",
-          "secondary_button_hover_border": "#333333",
+          "secondary_button_text": "#CB4E38",
+          "secondary_button_border": "#CB4E38",
+          "secondary_button_hover_background": "#F3DED3",
+          "secondary_button_hover_text": "#994B30",
+          "secondary_button_hover_border": "#994B30",
           "input_background": "#ffffffc7",
           "input_text_color": "#333333",
           "input_border_color": "#dfdfdf",
@@ -271,16 +263,16 @@
       },
       "scheme-6": {
         "settings": {
-          "background": "rgba(0,0,0,0)",
-          "foreground_heading": "#ffffff",
-          "foreground": "#ffffff",
+          "background": "#B55D4E",
+          "foreground_heading": "#FFFFFF",
+          "foreground": "#FDEEE9",
           "primary": "#ffffff",
           "primary_hover": "#ffffffb0",
           "border": "#e6e6e6",
           "shadow": "#000000",
-          "primary_button_background": "#ffffff",
-          "primary_button_text": "#000000",
-          "primary_button_border": "#ffffff",
+          "primary_button_background": "#FFFFFF",
+          "primary_button_text": "#CC5740",
+          "primary_button_border": "#FFFFFF",
           "primary_button_hover_background": "#000000",
           "primary_button_hover_text": "#ffffff",
           "primary_button_hover_border": "#000000",
@@ -349,8 +341,7 @@
       }
     },
     "logo_height": 40,
-    "logo_height_mobile": 30,
-    "logo": "https://cdn.shopify.com/s/files/1/0734/6877/2527/t/1/assets/levantto-logo.svg?v=1776925863"
+    "logo_height_mobile": 30
   },
   "presets": {
     "Horizon": {
