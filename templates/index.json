@@ -4,7 +4,7 @@
       "type": "custom-liquid",
       "name": "LEVANTTO Hero",
       "settings": {
-        "custom_liquid": "<style>.lv-video-wrap{width:100%;line-height:0;background:#000;}.lv-video-wrap video{width:100%;max-height:90vh;object-fit:cover;display:block;}.lv-intro{background:#fff;text-align:center;padding:5rem 1.5rem 4rem;}.lv-intro__logo{width:160px;margin:0 auto 2.5rem;display:block;}.lv-intro__headline{font-size:clamp(2rem,4.5vw,3.25rem);font-weight:700;letter-spacing:-0.02em;color:#1a1a1a;margin-bottom:1.25rem;line-height:1.15;max-width:700px;margin-left:auto;margin-right:auto;}.lv-intro__tagline{font-size:clamp(1rem,1.8vw,1.2rem);color:#555;line-height:1.7;margin-bottom:2.5rem;}.lv-intro__cta{display:inline-block;padding:0.875rem 2.5rem;background:#1a1a1a;color:#fff;font-weight:600;text-decoration:none;letter-spacing:0.06em;font-size:0.8125rem;text-transform:uppercase;transition:opacity 0.2s;}.lv-intro__cta:hover{opacity:0.75;}<\/style><div class='lv-video-wrap'><video autoplay muted loop playsinline><source src='https:\/\/levantto.io\/hero.mp4' type='video\/mp4'><\/video><\/div><div class='lv-intro'><img class='lv-intro__logo' src='https:\/\/levantto.io\/logo.svg' alt='LEVANTTO'><h1 class='lv-intro__headline'>LEVANTTO lässt euer Baby besser schlafen<\/h1><p class='lv-intro__tagline'>Und euch mal wieder durchatmen.<br>Überall, wo ihr gerade seid.<\/p><a class='lv-intro__cta' href='mailto:hey@levantto.io'>Get in Touch<\/a><\/div>",
+        "custom_liquid": "<style>.lv-video-wrap{width:100%;line-height:0;background:#000;}.lv-video-wrap video{width:100%;max-height:90vh;object-fit:cover;display:block;}.lv-intro{background:#fff;text-align:center;padding:5rem 1.5rem 4rem;}.lv-intro__logo{width:160px;margin:0 auto 2.5rem;display:block;}.lv-intro__headline{font-size:clamp(2rem,4.5vw,3.25rem);font-weight:700;letter-spacing:-0.02em;color:#1a1a1a;margin-bottom:1.25rem;line-height:1.15;max-width:700px;margin-left:auto;margin-right:auto;}.lv-intro__tagline{font-size:clamp(1rem,1.8vw,1.2rem);color:#555;line-height:1.7;margin-bottom:2.5rem;}.lv-intro__cta{display:inline-block;padding:0.875rem 2.5rem;background:#1a1a1a;color:#fff;font-weight:600;text-decoration:none;letter-spacing:0.06em;font-size:0.8125rem;text-transform:uppercase;transition:opacity 0.2s;}.lv-intro__cta:hover{opacity:0.75;}</style><div class='lv-video-wrap'><video autoplay muted loop playsinline><source src='https://levantto.io/hero.mp4' type='video/mp4'></video></div><div class='lv-intro'><img class='lv-intro__logo' src='https://levantto.io/logo.svg' alt='LEVANTTO'><h1 class='lv-intro__headline'>LEVANTTO lässt euer Baby besser schlafen</h1><p class='lv-intro__tagline'>Und euch mal wieder durchatmen.<br>Überall, wo ihr gerade seid.</p><a class='lv-intro__cta' href='mailto:hey@levantto.io'>Get in Touch</a></div>",
         "color_scheme": "scheme-1",
         "section_width": "full-width",
         "padding-block-start": 0,
@@ -15,7 +15,18 @@
       "type": "custom-liquid",
       "name": "Brand Story",
       "settings": {
-        "custom_liquid": "<style>.lv-story{display:grid;grid-template-columns:1fr 1fr;min-height:70vh;background:#f7f5f2;}.lv-story__image{overflow:hidden;}.lv-story__image img{width:100%;height:100%;object-fit:cover;}.lv-story__content{display:flex;flex-direction:column;justify-content:center;padding:5rem 4rem;}.lv-story__label{font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:#888;margin-bottom:1rem;}.lv-story__product{font-size:clamp(2.5rem,4vw,4rem);font-weight:700;letter-spacing:-0.03em;color:#0a0a0a;margin-bottom:0.5rem;line-height:1;}.lv-story__sub{font-size:1rem;color:#555;font-style:italic;margin-bottom:2rem;}.lv-story__desc{font-size:1.0625rem;line-height:1.75;color:#333;max-width:480px;}@media(max-width:768px){.lv-story{grid-template-columns:1fr;}.lv-story__content{padding:3rem 1.5rem;}}<\/style><section class='lv-story'><div class='lv-story__image'><img src='https:\/\/levantto.io\/product3.png' alt='PEANUT by LEVANTTO'><\/div><div class='lv-story__content'><span class='lv-story__label'>Unser Produkt<\/span><h2 class='lv-story__product'>PEANUT<\/h2><p class='lv-story__sub'>ergonomisch gedacht, emotional gefühlt<\/p><p class='lv-story__desc'>Für einen sicheren, gesunden Babyschlaf – rund und geborgen wie im Bauch der Mutter.<\/p><\/div><\/section>",
+        "custom_liquid": "<style>.lv-story{display:grid;grid-template-columns:1fr 1fr;min-height:70vh;background:#f7f5f2;}.lv-story__image{overflow:hidden;}.lv-story__image img{width:100%;height:100%;object-fit:cover;}.lv-story__content{display:flex;flex-direction:column;justify-content:center;padding:5rem 4rem;}.lv-story__label{font-size:0.75rem;letter-spacing:0.15em;text-transform:uppercase;color:#888;margin-bottom:1rem;}.lv-story__product{font-size:clamp(2.5rem,4vw,4rem);font-weight:700;letter-spacing:-0.03em;color:#0a0a0a;margin-bottom:0.5rem;line-height:1;}.lv-story__sub{font-size:1rem;color:#555;font-style:italic;margin-bottom:2rem;}.lv-story__desc{font-size:1.0625rem;line-height:1.75;color:#333;max-width:480px;}@media(max-width:768px){.lv-story{grid-template-columns:1fr;}.lv-story__content{padding:3rem 1.5rem;}}</style><section class='lv-story'><div class='lv-story__image'><img src='https://levantto.io/product3.png' alt='PEANUT by LEVANTTO'></div><div class='lv-story__content'><span class='lv-story__label'>Unser Produkt</span><h2 class='lv-story__product'>PEANUT</h2><p class='lv-story__sub'>ergonomisch gedacht, emotional gefühlt</p><p class='lv-story__desc'>Für einen sicheren, gesunden Babyschlaf – rund und geborgen wie im Bauch der Mutter.</p></div></section>",
+        "color_scheme": "scheme-1",
+        "section_width": "full-width",
+        "padding-block-start": 0,
+        "padding-block-end": 0
+      }
+    },
+    "content_block": {
+      "type": "custom-liquid",
+      "name": "Content Block",
+      "settings": {
+        "custom_liquid": "<style>.lv-content{background:#FDF8F3;padding:6rem 1.5rem;text-align:center;}.lv-content__inner{max-width:680px;margin:0 auto;}.lv-content__pre{font-size:1rem;color:#7A4535;line-height:1.75;margin-bottom:2rem;}.lv-content__headline{font-size:clamp(1.625rem,3.5vw,2.5rem);font-weight:700;color:#3D1E14;letter-spacing:-.02em;line-height:1.2;margin-bottom:2.25rem;}.lv-content__btn{display:inline-block;padding:.875rem 2.5rem;background:#CC5740;color:#fff;font-weight:600;text-decoration:none;letter-spacing:.05em;font-size:.875rem;text-transform:uppercase;border-radius:2px;transition:background .2s;}.lv-content__btn:hover{background:#994B30;}</style><div class=lv-content><div class=lv-content__inner><p class=lv-content__pre>Unser Baby trage Peanut sorgt für einen ruhigeren Schlaf eures Babys und damit einer ruhigeren Zeit für euch.</p><h2 class=lv-content__headline>Meine kinderärztliche Expertise für die Schonung eurer Nerven.</h2><a class=lv-content__btn href=/pages/klinisch-getestet>Mehr erfahren</a></div></div>",
         "color_scheme": "scheme-1",
         "section_width": "full-width",
         "padding-block-start": 0,
@@ -26,29 +37,7 @@
       "type": "custom-liquid",
       "name": "CTA",
       "settings": {
-        "custom_liquid": "<style>.lv-cta{background:#0a0a0a;color:#fff;text-align:center;padding:6rem 1.5rem;}.lv-cta__label{font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:#888;margin-bottom:1.5rem;}.lv-cta__heading{font-size:clamp(1.75rem,4vw,3rem);font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;line-height:1.2;}.lv-cta__text{font-size:1.0625rem;color:#aaa;max-width:500px;margin:0 auto 2.5rem;line-height:1.7;}.lv-cta__btn{display:inline-block;padding:0.875rem 2.5rem;border:1px solid #fff;color:#fff;text-decoration:none;font-size:0.875rem;font-weight:600;letter-spacing:0.05em;transition:background 0.2s,color 0.2s;}.lv-cta__btn:hover{background:#fff;color:#0a0a0a;}<\/style><section class='lv-cta'><p class='lv-cta__label'>Mitmachen<\/p><h2 class='lv-cta__heading'>SEI VON ANFANG AN DABEI<\/h2><p class='lv-cta__text'>Melde dich – wir freuen uns auf den Austausch.<\/p><a class='lv-cta__btn' href='mailto:hey@levantto.io'>GET IN TOUCH<\/a><\/section>",
-        "color_scheme": "scheme-1",
-        "section_width": "full-width",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
-    "footer_image": {
-      "type": "custom-liquid",
-      "name": "Footer Bild",
-      "settings": {
-        "custom_liquid": "<div style=\"background:#FDF8F3;padding:2rem 1.5rem;text-align:center;\"><img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0734\/6877\/2527\/t\/1\/assets\/testbild.png?v=1776927321\" alt=\"Testbild\" style=\"max-width:320px;width:100%;display:inline-block;\"><\/div>",
-        "color_scheme": "scheme-1",
-        "section_width": "page-width",
-        "padding-block-start": 0,
-        "padding-block-end": 0
-      }
-    },
-    "content_block": {
-      "type": "custom-liquid",
-      "name": "Content Block",
-      "settings": {
-        "custom_liquid": "<style>.lv-content{background:#FDF8F3;padding:6rem 1.5rem;text-align:center;}.lv-content__inner{max-width:680px;margin:0 auto;}.lv-content__pre{font-size:1rem;color:#7A4535;line-height:1.75;margin-bottom:2rem;}.lv-content__headline{font-size:clamp(1.625rem,3.5vw,2.5rem);font-weight:700;color:#3D1E14;letter-spacing:-.02em;line-height:1.2;margin-bottom:2.25rem;}.lv-content__btn{display:inline-block;padding:.875rem 2.5rem;background:#CC5740;color:#fff;font-weight:600;text-decoration:none;letter-spacing:.05em;font-size:.875rem;text-transform:uppercase;border-radius:2px;transition:background .2s;}.lv-content__btn:hover{background:#994B30;}<\/style><div class=lv-content><div class=lv-content__inner><p class=lv-content__pre>Unser Baby trage Peanut sorgt für einen ruhigeren Schlaf eures Babys und damit einer ruhigeren Zeit für euch.<\/p><h2 class=lv-content__headline>Meine kinderärztliche Expertise für die Schonung eurer Nerven.<\/h2><a class=lv-content__btn href=\/pages\/klinisch-getestet>Mehr erfahren<\/a><\/div><\/div>",
+        "custom_liquid": "<style>.lv-cta{background:#0a0a0a;color:#fff;text-align:center;padding:6rem 1.5rem;}.lv-cta__label{font-size:0.75rem;letter-spacing:0.2em;text-transform:uppercase;color:#888;margin-bottom:1.5rem;}.lv-cta__heading{font-size:clamp(1.75rem,4vw,3rem);font-weight:700;letter-spacing:-0.02em;margin-bottom:1.25rem;line-height:1.2;}.lv-cta__text{font-size:1.0625rem;color:#aaa;max-width:500px;margin:0 auto 2.5rem;line-height:1.7;}.lv-cta__btn{display:inline-block;padding:0.875rem 2.5rem;border:1px solid #fff;color:#fff;text-decoration:none;font-size:0.875rem;font-weight:600;letter-spacing:0.05em;transition:background 0.2s,color 0.2s;}.lv-cta__btn:hover{background:#fff;color:#0a0a0a;}</style><section class='lv-cta'><p class='lv-cta__label'>Mitmachen</p><h2 class='lv-cta__heading'>SEI VON ANFANG AN DABEI</h2><p class='lv-cta__text'>Melde dich – wir freuen uns auf den Austausch.</p><a class='lv-cta__btn' href='mailto:hey@levantto.io'>GET IN TOUCH</a></section>",
         "color_scheme": "scheme-1",
         "section_width": "full-width",
         "padding-block-start": 0,
@@ -58,9 +47,8 @@
   },
   "order": [
     "hero_levantto",
-    "brand_story",
     "content_block",
-    "cta_section",
-    "footer_image"
+    "brand_story",
+    "cta_section"
   ]
 }
