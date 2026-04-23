@@ -48,7 +48,7 @@
       "type": "custom-liquid",
       "name": "Intro Text",
       "settings": {
-        "custom_liquid": "<style>.lv-intro{background:#fff;text-align:center;padding:5rem 1.5rem 4rem;}.lv-intro__logo{width:160px;margin:0 auto 2.5rem;display:block;}.lv-intro__headline{font-size:clamp(2rem,4.5vw,3.25rem);font-weight:700;letter-spacing:-0.02em;color:#1a1a1a;margin-bottom:1.25rem;line-height:1.15;max-width:700px;margin-left:auto;margin-right:auto;}.lv-intro__tagline{font-size:clamp(1rem,1.8vw,1.2rem);color:#555;line-height:1.7;margin-bottom:2.5rem;}.lv-intro__cta{display:inline-block;padding:0.875rem 2.5rem;background:#1a1a1a;color:#fff;font-weight:600;text-decoration:none;letter-spacing:0.06em;font-size:0.8125rem;text-transform:uppercase;transition:opacity 0.2s;}.lv-intro__cta:hover{opacity:0.75;}</style><div class=\"lv-intro\"><img class=\"lv-intro__logo\" src=\"https://levantto.io/logo.svg\" alt=\"LEVANTTO\"><h2 class=\"lv-intro__headline\">LEVANTTO lässt euer Baby besser schlafen</h2><p class=\"lv-intro__tagline\">Und euch mal wieder durchatmen.<br>Überall, wo ihr gerade seid.</p><a class=\"lv-intro__cta\" href=\"mailto:hey@levantto.io\">Get in Touch</a></div>",
+        "custom_liquid": "<style>.lv-intro{background:#fff;text-align:center;padding:5rem 1.5rem 4rem;}.lv-intro__logo{width:160px;margin:0 auto 2.5rem;display:block;}.lv-intro__headline{font-size:clamp(2rem,4.5vw,3.25rem);font-weight:700;letter-spacing:-0.02em;color:#1a1a1a;margin-bottom:1.25rem;line-height:1.15;max-width:700px;margin-left:auto;margin-right:auto;}.lv-intro__tagline{font-size:clamp(1rem,1.8vw,1.2rem);color:#555;line-height:1.7;margin-bottom:2.5rem;}.lv-intro__cta{display:inline-block;padding:0.875rem 2.5rem;background:#1a1a1a;color:#fff;font-weight:600;text-decoration:none;letter-spacing:0.06em;font-size:0.8125rem;text-transform:uppercase;transition:opacity 0.2s;}.lv-intro__cta:hover{opacity:0.75;}</style><div class=\"lv-intro\"><img class=\"lv-intro__logo\" src=\"https://levantto.io/logo.svg\" alt=\"LEVANTTO\"><h2 class=\"lv-intro__headline\">LEVANTTO lässt euer Baby besser schlafen</h2><p class=\"lv-intro__tagline\">Und euch mal wieder durchatmen.<br>Überall, wo ihr gerade seid.</p><a class=\"lv-intro__cta\" href=\"/pages/klinisch-getestet\">Mehr erfahren</a></div>",
         "color_scheme": "scheme-1",
         "section_width": "full-width",
         "padding-block-start": 0,
@@ -58,9 +58,9 @@
   },
   "order": [
     "hero_levantto",
-    "content_block",
     "intro_text",
     "brand_story",
+    "content_block",
     "cta_section"
   ]
 }
