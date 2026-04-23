@@ -66,6 +66,18 @@
             "padding-inline-end": 0
           },
           "blocks": {
+            "rating_block": {
+              "type": "custom-liquid",
+              "name": "Bewertungen",
+              "settings": {
+                "custom_liquid": "<style>.lv-rating{display:flex;align-items:center;gap:0.6rem;padding:0.25rem 0;}.lv-rating__stars{display:flex;gap:2px;}.lv-rating__star{color:#CC5740;font-size:1.1rem;line-height:1;}.lv-rating__score{font-weight:700;font-size:0.9375rem;color:#3D1E14;}.lv-rating__count{font-size:0.8125rem;color:#888;border-bottom:1px solid #888;cursor:pointer;}</style><div class='lv-rating'><div class='lv-rating__stars'><span class='lv-rating__star'>★</span><span class='lv-rating__star'>★</span><span class='lv-rating__star'>★</span><span class='lv-rating__star'>★</span><span class='lv-rating__star'>★</span></div><span class='lv-rating__score'>4,9</span><span class='lv-rating__count'>14 Bewertungen</span></div>",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
+            },
             "group_icgrde": {
               "type": "group",
               "name": "Header",
@@ -246,16 +258,30 @@
                 "padding-inline-end": 0
               },
               "blocks": {}
+            },
+            "mal_gekauft_block": {
+              "type": "custom-liquid",
+              "name": "Mal gekauft",
+              "settings": {
+                "custom_liquid": "<style>.lv-bought{display:flex;align-items:center;gap:0.75rem;padding:0.875rem 1rem;background:#FDF8F3;border:1px solid #E8D5CC;border-radius:50px;margin-top:1rem;width:fit-content;}.lv-bought__avatars{display:flex;}.lv-bought__avatar{width:28px;height:28px;border-radius:50%;border:2px solid #fff;overflow:hidden;margin-right:-8px;background:#E8D5CC;display:flex;align-items:center;justify-content:center;font-size:0.7rem;font-weight:600;color:#994B30;}.lv-bought__text{font-size:0.875rem;color:#3D1E14;padding-left:8px;}<br>.lv-bought__text strong{font-weight:700;}</style><div class='lv-bought'><div class='lv-bought__avatars'><div class='lv-bought__avatar'>LM</div><div class='lv-bought__avatar'>AK</div><div class='lv-bought__avatar'>SR</div></div><span class='lv-bought__text'>Mehr als <strong>1.324</strong> Mal gekauft.</span></div>",
+                "padding-block-start": 0,
+                "padding-block-end": 0,
+                "padding-inline-start": 0,
+                "padding-inline-end": 0
+              },
+              "blocks": {}
             }
           },
           "block_order": [
+            "rating_block",
             "group_icgrde",
             "divider_VJhene",
             "variant_picker_R3rGDr",
             "buy_buttons_eYQEYi",
             "text_aEtTtq",
             "icons_block",
-            "team_photo_block"
+            "team_photo_block",
+            "mal_gekauft_block"
           ]
         }
       },
