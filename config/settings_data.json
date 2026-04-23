@@ -6,8 +6,7 @@
  * or related systems. Please exercise caution as any changes
  * made to this file may be overwritten.
  * ------------------------------------------------------------
- */
-{
+ */{
   "current": {
     "type_body_font": "inter_n4",
     "type_subheading_font": "inter_n5",
@@ -349,8 +348,9 @@
         }
       }
     },
-    "logo_height": 36,
-    "logo_height_mobile": 28
+    "logo_height": 40,
+    "logo_height_mobile": 30,
+    "logo": "https://cdn.shopify.com/s/files/1/0734/6877/2527/t/1/assets/levantto-logo.svg?v=1776925863"
   },
   "presets": {
     "Horizon": {

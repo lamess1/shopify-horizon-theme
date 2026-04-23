@@ -81,7 +81,7 @@
             "text_f9CFLH": {
               "type": "text",
               "settings": {
-                "text": "<p>Rosenthaler Straße 34/35, 10178 Berlin<br><a href='mailto:hey@levantto.io'>hey@levantto.io</a><br><a href='/pages/impressum'>Impressum</a></p>",
+                "text": "<p>Rosenthaler Straße 34/35, 10178 Berlin<br><a href='mailto:hey@levantto.io'>hey@levantto.io</a><br><a href='/pages/impressum'>Impressum</a> &nbsp;|&nbsp; <a href='/pages/datenschutz'>Datenschutz</a></p>",
                 "width": "100%",
                 "max_width": "normal",
                 "alignment": "left",
